@@ -1,5 +1,5 @@
 ARG VER=latest
-FROM ramirezfx/opensuse-leap-kde-baseimage:$VER
+FROM ramirezfx/opensuse-leap-kde-baseimage-arm64:$VER
 ENV SHELL=/bin/bash
 
 # Install minimum needed packages
