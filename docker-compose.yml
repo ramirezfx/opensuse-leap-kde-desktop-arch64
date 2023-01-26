@@ -11,7 +11,7 @@ services:
     - TZ={{ TIMEZONE }}
     cap_add:
     - SYS_PTRACE
-    image: ramirezfx/opensuse-leap-kde-desktop:{{ VERSION }}
+    image: ramirezfx/opensuse-leap-kde-desktop-arm64:{{ VERSION }}
     restart: always
     stdin_open: true
     tty: true
