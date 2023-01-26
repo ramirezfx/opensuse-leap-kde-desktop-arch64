@@ -15,5 +15,5 @@ zypper -n --no-gpg-checks in /tmp/code.rpm
 
 # Download and install latest Google Chrome-Browser
 # -------------------------------------------------
-wget -O /tmp/google-chrome-stable-current-amd64.rpm https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
-zypper -n --no-gpg-checks in /tmp/google-chrome-stable-current-amd64.rpm
+# wget -O /tmp/google-chrome-stable-current-amd64.rpm https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+zypper -n --no-gpg-checks in chromium
